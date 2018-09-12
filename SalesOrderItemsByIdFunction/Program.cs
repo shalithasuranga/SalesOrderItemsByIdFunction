@@ -6,7 +6,7 @@ namespace SalesOrderItemsByIdFunction
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(" const " + RambaseCOSLib.Constants.DOC.OURNO);
         }
     }
 }

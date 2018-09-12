@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="RambaseCOSLib">
+      <HintPath>lib\RambaseCOSLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
