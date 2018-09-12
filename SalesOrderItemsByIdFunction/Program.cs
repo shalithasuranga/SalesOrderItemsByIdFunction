@@ -17,7 +17,7 @@ namespace SalesOrderItemsByIdFunction
         }
 
         static void Main(string[] args) {
-            string buffer = "";
+            string buffer = getStdin();
             ServerlessFunction f = new ServerlessFunction();
 
             string responseValue = f.Handle(buffer);
