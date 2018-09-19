@@ -14,7 +14,7 @@ namespace SalesOrderItemsByIdFunction.serverless
             DataTable RES = new DataTable(1, "HANDLE", "POS", "SIZE");
             DataTable RTB = new DataTable(80, "DOCID", "ITM", "ST1", "IT", "PART", "TEXT", "MFRID", "REQ", "CONF", "QTY", "NETQTY", "CUR", "PRICE", "AMOUNT", "NETAMT", "YOURITM", "CUSPART");
 
-            List<DataTable> tmpResult = SalesOrderItem.GetList();
+            List<DataTable> tmpResult = SalesOrderItem.GetList(input);
             RTB.fillData(tmpResult[0]);
             RES.fillData(tmpResult[1]);
 
